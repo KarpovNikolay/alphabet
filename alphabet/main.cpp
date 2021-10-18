@@ -15,7 +15,6 @@ struct symbol
           graphics[2] = m3;
           graphics[3] = m4;
           graphics[4] = m5;
-          graphics[5] = m6;
       }
       string getline(int m)
       {
@@ -40,6 +39,7 @@ screen mainscreen;
 
 int main()
 {
+symbol l("|    ","|    ","|    ","|    ","|    ","L____");
 symbol m("|\    //|","| \  // |","|  \//  |","|	    |","|	    |");
 symbol z("----/","   / ","  /  "," /   ","/----");
 symbol a("/---\\","|   |","|---|","|   |","|   |");
