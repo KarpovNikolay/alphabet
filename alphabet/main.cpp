@@ -15,7 +15,6 @@ struct symbol
           graphics[2] = m3;
           graphics[3] = m4;
           graphics[4] = m5;
-          graphics[5] = m6;
       }
       string getline(int m)
       {
@@ -40,11 +39,10 @@ screen mainscreen;
 
 int main()
 {
-    symbol s(" /---------","|          "," \\_______ ","         \\","          |","_________/ ");
-
-    mainscreen.add(s);
-    mainscreen.add(s);
-    mainscreen.print();
-
+symbol s("/----","|    ","\\___ ","    \\","    |","____/");
+symbol m("|\  //|","| \// |","|    |","|    |","|    |");
+symbol l("|    ","|    ","|    ","|    ","|    ","L____");
+symbol z("----/","   / ","  /  "," /   ","/----");
+symbol a("/---\\","|   |","|---|","|   |","|   |");
     return 0;
 }
