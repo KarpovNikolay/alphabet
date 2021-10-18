@@ -40,11 +40,8 @@ screen mainscreen;
 
 int main()
 {
-    symbol m("|\    //|","| \  // |","|  \//  |","|	    |","|	    |","|	    |");
-
-    mainscreen.add(m);
-    mainscreen.add(m);
-    mainscreen.print();
-
+symbol m("|\    //|","| \  // |","|  \//  |","|	    |","|	    |");
+symbol z("----/","   / ","  /  "," /   ","/----");
+symbol a("/---\\","|   |","|---|","|   |","|   |");
     return 0;
 }
