@@ -8,7 +8,7 @@ struct symbol
   private:
       array<string, 5> graphics;
   public:
-      symbol(string m1, string m2, string m3, string m4, string m5, string m6)
+      symbol(string m1, string m2, string m3, string m4, string m5)
       {
           graphics[0] = m1;
           graphics[1] = m2;
@@ -39,6 +39,7 @@ screen mainscreen;
 
 int main()
 {
+symbol b("|---\\ ","|___| ","|    \\","|     |","|____/");
 symbol s(" ____","/    ","\\___ ","    \\","____/");
 symbol l("|    ","|    ","|    ","|    ","L____");
 symbol m("|\  //|","| \// |","|    |","|    |","|    |");
