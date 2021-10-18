@@ -6,6 +6,7 @@ using namespace std;
 struct symbol
 {
   private:
+
       array<string, 5> graphics;
   public:
       symbol(string m1, string m2, string m3, string m4, string m5)
@@ -39,10 +40,11 @@ screen mainscreen;
 
 int main()
 {
-    symbol E("|----","|    ","|----","|    ","|____");
-
-    mainscreen.add(E);
-    mainscreen.print();
-
+symbol e("|----","|    ","|----","|    ","|____");
+symbol s("/----","|    ","\\___ ","    \\","    |","____/");
+symbol m("|\  //|","| \// |","|    |","|    |","|    |");
+symbol l("|    ","|    ","|    ","|    ","|    ","L____");
+symbol z("----/","   / ","  /  "," /   ","/----");
+symbol a("/---\\","|   |","|---|","|   |","|   |");
     return 0;
 }
