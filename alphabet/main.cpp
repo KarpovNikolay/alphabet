@@ -85,11 +85,5 @@ We delete everything that was written in paragraph 4 and add it to the smartgit 
 5)Ïóëèì íà ãèòõàá
 Push on github
 **/
-
-symbol z("----/","   / ","  /  "," /   ","/----");
-    mainscreen.add(z);
-    mainscreen.add(z);
-    mainscreen.print();
-
     return 0;
 }
