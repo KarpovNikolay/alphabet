@@ -42,6 +42,6 @@ screen mainscreen;
 int main()
 {
 
-symbol a(" "," "," "," ","*");  return 0;
+symbol dot(" "," "," "," ","*");  return 0;
 
 }
