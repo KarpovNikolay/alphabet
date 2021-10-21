@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634626612 source:c:\users\24.karpov.n\documents\smartgit\projects\alphabet\alphabet\main.cpp
+	<iostream>
+	<array>
+
